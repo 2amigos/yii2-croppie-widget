@@ -1,12 +1,11 @@
 <?php
- /**
- * 
- * bootstrap.php
- *
- * @author Antonio Ramirez <amigo.cobos@gmail.com>
- * @link http://www.ramirezcobos.com/
- * @link http://www.2amigos.us/
- */
+
+/*
+ * This file is part of the 2amigos/yii2-croppie-widget project.
+ * (c) 2amigOS! <http://2amigos.us/>
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
+ */ 
 
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'test');

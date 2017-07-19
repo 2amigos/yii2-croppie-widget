@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="/0/croppie.css" rel="stylesheet"></head>
+<body>
+
+<div id="test-widget"></div>
+<script src="/1/jquery.js"></script>
+<script src="/0/croppie.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+;jQuery('#test-widget').croppie(["enableExif"]);
+});</script></body>
+</html>

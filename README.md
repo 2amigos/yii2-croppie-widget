@@ -1,33 +1,36 @@
-# :package_name
+# Croppie Widget for Yii2 
 
-[![Latest Version](https://img.shields.io/github/release/2amigos/:package_name.svg?style=flat-square)](https://github.com/2amigos/:package_name/releases)
+[![Latest Version](https://img.shields.io/github/release/2amigos/yii2-croppie-widget.svg?style=flat-square)](https://github.com/2amigos/yii2-croppie-widget/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/2amigos/:package_name/master.svg?style=flat-square)](https://travis-ci.org/2amigos/:package_name)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/2amigos/:package_name.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/:package_name/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/2amigos/:package_name.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/:package_name)
-[![Total Downloads](https://img.shields.io/packagist/dt/2amigos/:package_name.svg?style=flat-square)](https://packagist.org/packages/2amigos/:package_name)
+[![Build Status](https://img.shields.io/travis/2amigos/yii2-croppie-widget/master.svg?style=flat-square)](https://travis-ci.org/2amigos/yii2-croppie-widget)
+[![Quality Score](https://img.shields.io/scrutinizer/g/2amigos/yii2-croppie-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-croppie-widget)
+[![Total Downloads](https://img.shields.io/packagist/dt/2amigos/yii2-croppie-widget.svg?style=flat-square)](https://packagist.org/packages/2amigos/yii2-croppie-widget)
 
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:package_name```
-```:package_description``` with theirs correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md),
-[CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this
-line.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+Renders a [Croppie plugin](http://foliotek.github.io/Croppie/). The fast, easy to use, image cropping plugin with tons
+of configuration options!
 
 ## Install
 
 Via Composer
 
 ```bash
-$ composer require 2amigos/:package_name
+$ composer require 2amigos/yii2-croppie-widget
 ```
 
 ## Usage
 
+The usage of this widget is pretty simple:
+
 ```php
-$skeleton = new dosamigos\Skeleton();
-echo $skeleton->echoPhrase('Hello, Yii2!');
+
+<?php
+
+use dosamigos\croppie\CroppieWidget;
+
+/* @var $this yii\web\View */
+?>
+
+<?= CroppieWidget::widget(['id' => 'test-widget', 'clientOptions' => ['enableExif']]) ?>
 ```
 
 ## Testing
@@ -51,7 +54,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [2amigos](https://github.com/2amigos)
 - [All Contributors](../../contributors)
 
 ## License
@@ -60,6 +63,6 @@ The BSD License (BSD). Please see [License File](LICENSE.md) for more informatio
 
 <blockquote>
     <a href="http://www.2amigos.us"><img src="http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png"></a><br>
-    <i>web development has never been so fun</i><br>
+    <i>Custom Software | Web & Mobile Development </i><br>
     <a href="http://www.2amigos.us">www.2amigos.us</a>
 </blockquote>
