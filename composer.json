@@ -1,7 +1,7 @@
 {
     "name": "2amigos/yii2-croppie-widget",
     "description": "Renders a Croppie plugin. The fast, easy to use, image cropping plugin.",
-    "type": ":package_type",
+    "type": "yii2-extension",
     "keywords": [
         "2amigos",
         "yii",
