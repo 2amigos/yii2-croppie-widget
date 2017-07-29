@@ -8,7 +8,7 @@
         "yii2",
         "yii 2",
         "extension",
-        ":package_type",
+        "yii2-extension",
         "yii2-croppie-widget"
     ],
     "homepage": "https://github.com/2amigos/yii2-croppie-widget",
