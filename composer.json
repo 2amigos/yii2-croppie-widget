@@ -28,7 +28,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "^2.0",
-        "bower-asset/croppie": "~2.5",
+        "bower-asset/croppie": "2",
         "bower-asset/exif-js": "~2.2"
     },
     "require-dev": {
